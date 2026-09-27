@@ -1,0 +1,5 @@
+{
+  "name": "Game Spinning Top ",
+  "description": "A tabletop spinning top game with procedurally generated enemies, infinite levels, and unique combat specials.",
+  "requestFramePermissions": []
+}

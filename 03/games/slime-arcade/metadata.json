@@ -1,0 +1,5 @@
+{
+  "name": "Game Slime Arcade Battles",
+  "description": "A retro-inspired arcade game where you train a slime by playing mini-games, upgrade its stats, and battle other slimes in a turn-based combat system with live AI-powered commentary.",
+  "requestFramePermissions": []
+}

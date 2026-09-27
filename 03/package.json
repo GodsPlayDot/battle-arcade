@@ -1,0 +1,17 @@
+{
+  "name": "battle-arcade-hub",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:games && node scripts/build-hub.mjs",
+    "build:games": "npm --prefix games/grid-combat run build && npm --prefix games/spin-arena run build && npm --prefix games/slime-arcade run build && npm --prefix games/ascension-chess run build",
+    "check:arcade": "node --check src/hub.js",
+    "check": "npm run check:arcade && npm --prefix games/grid-combat run lint && npm --prefix games/spin-arena run lint && ./games/slime-arcade/node_modules/.bin/tsc -p games/slime-arcade/tsconfig.json --noEmit && npm --prefix games/ascension-chess run lint",
+    "dev": "vite --host 0.0.0.0",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}
