@@ -1,0 +1,5 @@
+{
+  "name": "Game Grid Combat",
+  "description": "A real-time tactical combat game on an 11x11 isometric grid. Players select primary and follow-up moves, manage HP, MP, and Stamina, and utilize skills with range mechanics to defeat their opponent.",
+  "requestFramePermissions": []
+}
