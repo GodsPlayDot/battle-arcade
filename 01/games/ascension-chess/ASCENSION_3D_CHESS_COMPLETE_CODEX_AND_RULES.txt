@@ -1,0 +1,316 @@
+================================================================================
+ASCENSION 3D CHESS — COMPLETE PIECE CODEX, BATTLEFIELD GUIDE, TACTICAL ACADEMY & RULES
+================================================================================
+Version: Master Edition (All 4 Battlefields · 10 Unit Classes · Open Surface & Surface Bound Play Styles · 3D D20 & RPS Combat · Master AI Playbook)
+
+================================================================================
+1. CORE IDENTITY & VICTORY CONDITION
+================================================================================
+Ascension 3D Chess is real Chess elevated onto a three-dimensional stepped architectural battlefield.
+- Two Armies: White (Ivory/Gold) vs. Black (Obsidian/Indigo).
+- Turn-Based Strategy: White moves first; players alternate turns.
+- Sovereign Objective: The King is the sole piece that decides the game.
+  You win by CHECKMATING the enemy King (or eliminating the enemy King in combat).
+  There are NO artificial "King of the Hill" summit victories and NO kill-count victories.
+  Controlling the 4x4 Summit Apex grants commanding elevation, promotion opportunities,
+  and (in Surface Bound Play Style) Jump Color Release, but only Checkmate wins the war.
+
+================================================================================
+2. THE FIVE INDEPENDENT GAME SETUP CATEGORIES
+================================================================================
+Setting         Choices
+--------------------------------------------------------------------------------
+1. Battlefield  Classic (8x8) / Battlefield (20x20) / Quick Pyramid (12x12) / Grand Pyramid (20x20)
+2. Army         Standard / Kingdom
+3. Combat       Standard / RPG
+4. Play Style   Open Surface (Standard) / Surface Bound (Challenge)
+5. Players      Human vs Human / Human vs AI / AI vs AI
+
+--------------------------------------------------------------------------------
+A. BATTLEFIELD (4 Topologies)
+--------------------------------------------------------------------------------
+1) Classic Chess (8x8 Flat):
+   - Traditional 64-square flat tournament chessboard (Elevation 0).
+   - Supports both Standard Chess and RPG Battle Chess.
+
+2) Quick Pyramid (12x12 Stepped Ziggurat):
+   - 12x12 footprint with a compressed stepped pyramid rising at the center:
+     * Elevation 0 (Valley Floor): Outer 2-tile ring.
+     * Elevation 1 (Low Terrace): 8x8 ring [2..9].
+     * Elevation 2 (High Terrace): 6x6 ring [3..8].
+     * Elevation 3 (4x4 Summit Apex): Central 4x4 platform [4..7].
+   - Includes 32 playable Vertical Cliff Wall tiles between terrace steps.
+   - Armies deploy only 4 files apart for rapid vertical engagements.
+
+3) Grand Pyramid (20x20 Full Architectural Ziggurat):
+   - 20x20 footprint (400 horizontal tiles + 80 playable vertical cliff wall tiles = 480 playable spaces).
+   - 5 Distinct Elevation Levels:
+     * Elevation 0 (Plains & Flanks): 0.00m — Outer 4-tile flanking corridors [0..3] & [16..19] plus [4, 15] ring.
+     * Elevation 1 (Lower Terrace):   1.25m — 10x10 ring [5..14].
+     * Elevation 2 (Middle Terrace):  2.50m — 8x8 ring [6..13].
+     * Elevation 3 (Upper Terrace):   3.75m — 6x6 ring [7..12].
+     * Elevation 4 (Summit Apex):     5.00m — Central 4x4 apex platform [8..11].
+   - Features the Grand Pyramid specialist roster: Vanguard (all modes) and
+     Gargoyle, Ascendant, and Trebuchet (RPG mode).
+
+4) Battlefield (20x20 Flat Open Plain):
+   - 400-square flat open plain (Elevation 0 across all 20x20 squares).
+   - Built for sweeping long-range lines and massive Kingdom flank maneuvers.
+
+--------------------------------------------------------------------------------
+B. ARMY DEPLOYMENT (2 Scales)
+--------------------------------------------------------------------------------
+1) Standard Army:
+   - Classic 8x8 / Quick Pyramid 12x12 / Battlefield 20x20:
+     16 classical Staunton pieces per side (32 total):
+     1 King, 1 Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns.
+   - Grand Pyramid 20x20 (Standard Combat Mode):
+     18 pieces per side (36 total):
+     16 classical pieces (centered on columns 6..13) + 2 Vanguards at (5,0) & (14,0) for White
+     and (5,19) & (14,19) for Black.
+   - Grand Pyramid 20x20 (RPG Combat Mode):
+     22 pieces per side (44 total):
+     16 classical pieces + 2 Vanguards + 2 Gargoyles + 1 Ascendant + 1 Trebuchet.
+
+2) Kingdom Army (Multi-Flank Deployment):
+   - Adds West Flank (4 inward-facing Pawns) and East Flank (4 inward-facing Pawns)
+     detachments (+8 pieces per side / +16 total):
+     * 24 pieces per side (48 total) on 12x12 Quick Pyramid & 20x20 Flat Battlefield.
+     * 26 pieces per side (52 total) on 20x20 Grand Pyramid (Standard Mode).
+     * 30 pieces per side (60 total) on 20x20 Grand Pyramid (RPG Mode).
+
+--------------------------------------------------------------------------------
+C. COMBAT MODE (Standard vs. RPG Battle Chess)
+--------------------------------------------------------------------------------
+1) Standard Chess Mode:
+   - Deterministic one-hit captures on any legal attack square.
+   - Full Check, Checkmate, Stalemate, Castling, En Passant, and Pawn Promotion.
+
+2) RPG Battle Chess Mode:
+   - Every piece has HP, ATK, DEF, Evasion %, and Crit % stats.
+   - TWO DISTINCT COMBAT RESOLUTION MECHANICS:
+     a) Different Piece Classes (e.g., Knight vs. Rook) -> 3D D20 Dice Roll & Formula:
+        - A 3D-faceted icosahedron D20 die physically rotates and lands on a roll (1..20).
+        - Displays the step-by-step damage formula:
+          Final Damage = round((ATK - DEF * 0.55 + D20_Mod) * Elevation_Mult * Crit_Mult)
+        - Roll 20 = Automatic Natural 20 Critical Strike (1.5x damage, cannot be dodged).
+        - Roll 1  = Glancing Blow (-4 damage penalty, cannot crit).
+        - If Defender HP drops to 0, the attacker captures the square immediately.
+        - If Defender survives with HP > 0 (on melee/non-bombard attacks), both pieces
+          enter a multi-turn Ongoing Duel on that tile (up to 3 rounds).
+     b) Same Piece Classes (Mirror Clash, e.g., Pawn vs. Pawn, Knight vs. Knight) -> Rock-Paper-Scissors:
+        - Triggers a 4-beat "ROCK... PAPER... SCISSORS... SHOOT!" showdown.
+        - Rock (🪨) crushes Scissors (✂️); Scissors (✂️) pierces Paper (📄); Paper (📄) wards Rock (🪨).
+        - Ties trigger an automatic instant rematch round until a decisive winner emerges.
+        - If Attacker wins RPS: Defender is eliminated outright and Attacker takes the square.
+        - If Defender wins RPS: Attacker is countered and eliminated outright!
+
+--------------------------------------------------------------------------------
+D. PLAY STYLE (Open Surface vs. Surface Bound Challenge)
+--------------------------------------------------------------------------------
+Play Style is an independent setting that defines how pieces interact with Pyramid
+surfaces, vertical walls, tile colors, and the 4x4 Summit:
+
+1) OPEN SURFACE — Standard Pyramid Play (Default / Accessible Experience):
+   - Uses the continuous-surface Pyramid movement and attack system.
+   - The vertical cliff walls and horizontal terraces form one continuous folded
+     checkerboard skin ("Every playable tile shares an edge only with the opposite color").
+   - Pieces can move and attack freely across connected horizontal and vertical surfaces.
+   - Jump-capable pieces (Knights, Gargoyles) can jump freely to any legal destination
+     tile color regardless of whether they have visited the 4x4 Summit.
+
+2) SURFACE BOUND — Advanced / Challenge Play Style:
+   - Fundamentally changes how players think about surfaces, positioning, and the summit.
+   - Changes the core tactical question from "Can my piece reach that enemy?" to
+     "Can I reach the correct surface from which I am allowed to fight that enemy?"
+   - Activates the 9 Canonical Surface Bound Laws on Pyramid Battlefields:
+     * Law 1 (Surface Classification): Every Pyramid tile belongs to one of two surface
+       classes: Horizontal Surface (Plains, Terraces, 4x4 Summit) or Vertical Surface (Cliff Walls).
+     * Law 2 (Same-Surface Combat Law): Horizontal pieces CANNOT attack vertical pieces.
+       Vertical pieces CANNOT attack horizontal pieces.
+     * Law 3 (Transition to Attack Law): A piece must first move onto the same surface
+       class as its opponent before it can legally attack or capture that opponent.
+     * Law 4 (Cross-Surface Blocking Law): Opposite-surface pieces CANNOT be captured
+       across surface classes, but they STILL physically block sliding movement paths.
+       A sliding piece must stop before the occupied opposite-surface tile.
+     * Law 5 (Jump Color Law): Jump-capable pieces (Knights and Gargoyles) are bound to
+       the tile color (Light or Dark) they originally started on. While color-bound, all
+       jump movements and jump captures must land on that original tile color.
+     * Law 6 (4x4 Summit Color Release Law): Reaching any tile of the 4x4 Summit permanently
+       releases a jump-capable piece from its starting color restriction for the rest of
+       the match. Once released, it may jump to either Light or Dark tiles.
+     * Law 7 (Summit-to-Base Jump Law): When a jump-capable piece jumps directly from the
+       4x4 Summit, its jump is restricted to legal Pyramid-base landing tiles (outer base
+       ring immediately surrounding the Pyramid footprint)—or normal step/surface moves.
+     * Law 8 (Check & Checkmate Law): Check and checkmate obey the exact same surface and
+       color restrictions. A King on a Horizontal tile can only be checked by an enemy
+       piece that is also on a Horizontal tile (and vice versa for Vertical walls). A
+       color-bound jumper can only check a King sitting on its allowed tile color.
+     * Law 9 (Support & Threat Law): Tactical protection, threat counts, and pins only
+       count when the supporting or threatening piece can legally attack that target's
+       surface class and tile color under Surface Bound rules.
+
+================================================================================
+3. COMPLETE 10-PIECE CODEX (MOVEMENT, STATS, OPEN SURFACE & SURFACE BOUND RULES)
+================================================================================
+
+1) PAWN [Icon: ♟ | Badge: All Boards]
+   - RPG Stats: HP 50 | ATK 25 | DEF 12 | EVA 15% | CRIT 10%
+   - Horizontal Movement:
+     Advances 1 square forward or 1 square laterally (sideways Left or Right) across
+     unobstructed ground. Can move 2 squares forward on its initial step. Captures 1 step
+     diagonally forward relative to its facing. Can NEVER retreat backward. Supports En Passant.
+   - Pyramid & Vertical Movement:
+     Advances 1 tile forward or sideways along the continuous surface (including climbing
+     vertical wall tiles and stepping onto higher terraces). Promotes upon reaching the
+     opposite back rank or reaching the 4x4 Summit Apex on pyramid boards (can promote to
+     Queen, Rook, Bishop, Knight, or Vanguard on 20x20 Grand Pyramid).
+   - Surface Bound Play Style Rule:
+     Can transition between Horizontal and Vertical surfaces by movement, but may only
+     capture an enemy occupying the SAME surface class (Horizontal vs. Horizontal, or
+     Vertical vs. Vertical). Blocks opposite-surface movement paths.
+
+2) KNIGHT [Icon: ♞ | Badge: All Boards]
+   - RPG Stats: HP 80 | ATK 40 | DEF 18 | EVA 30% | CRIT 15%
+   - Horizontal Movement:
+     Leaps in the classical L-shape (2 squares along one axis + 1 square perpendicular),
+     ignoring intervening pieces.
+   - Pyramid & Vertical Movement (Open Surface):
+     Leaps directly across tiers or onto vertical cliff wall tiles within L-jump geometry
+     without needing to climb intermediate wall squares.
+   - Surface Bound Play Style Rule:
+     * Jump Color Law: Bound to the tile color (Light or Dark) of its starting square.
+       All jumps and jump attacks must land on that same tile color until released.
+     * 4x4 Summit Release: Reaching any tile of the 4x4 Summit permanently releases its
+       color lock for the rest of the game, allowing jumps to both Light and Dark tiles.
+     * Summit-to-Base Jump: Jumping from the 4x4 Summit lands on legal Pyramid-base tiles.
+     * Same-Surface Combat: May only capture enemies on the same surface class.
+
+3) BISHOP [Icon: ♝ | Badge: All Boards]
+   - RPG Stats: HP 75 | ATK 45 | DEF 14 | EVA 20% | CRIT 20%
+   - Horizontal Movement:
+     Slides any unobstructed distance diagonally.
+   - Pyramid & Vertical Movement (Open Surface):
+     Maintains continuous diagonal range across the folded pyramid surface (floor <-> wall
+     <-> terrace <-> summit) without arbitrary elevation caps.
+   - Surface Bound Play Style Rule:
+     Naturally remains on its starting tile color. Can transition onto diagonal wall tiles,
+     but cannot capture across different surface classes. Opposite-surface pieces still
+     block its diagonal path.
+
+4) ROOK [Icon: ♜ | Badge: All Boards]
+   - RPG Stats: HP 105 | ATK 50 | DEF 32 | EVA 5% | CRIT 10%
+   - Horizontal Movement:
+     Slides any unobstructed distance orthogonally (ranks and files). Participates in Castling.
+   - Pyramid & Vertical Movement (Open Surface):
+     Maintains continuous straight-line orthogonal range up and down vertical cliff walls
+     and across terraces without elevation limits. Serves as swap partner for friendly Vanguards.
+   - Surface Bound Play Style Rule:
+     Can transition between Horizontal and Vertical surfaces along orthogonal lines. While
+     horizontal, it can only capture horizontal enemies; while on a vertical wall, it can
+     only capture vertical enemies. Opposite-surface pieces along its file/rank physically
+     block its path and force it to stop before them.
+
+5) QUEEN [Icon: ♛ | Badge: All Boards]
+   - RPG Stats: HP 130 | ATK 65 | DEF 28 | EVA 25% | CRIT 25%
+   - Horizontal Movement:
+     Combines Rook + Bishop movement (any unobstructed orthogonal or diagonal distance).
+   - Pyramid & Vertical Movement (Open Surface):
+     Full multi-tier orthogonal and diagonal range across all connected horizontal and
+     vertical cliff surfaces without elevation limits.
+   - Surface Bound Play Style Rule:
+     High mobility for repositioning between horizontal terraces and vertical walls, but
+     cannot snipe across surface classes. Must first transition onto the target's surface
+     class to capture or deliver check, and is blocked by opposite-surface pieces on its ray.
+
+6) KING [Icon: ♚ | Badge: Sovereign Objective]
+   - RPG Stats: HP 160 | ATK 35 | DEF 32 | EVA 15% | CRIT 12%
+   - Horizontal Movement:
+     Steps 1 square in any of the 8 directions. Supports Kingside and Queenside Castling.
+   - Pyramid & Vertical Movement (Open Surface):
+     Steps 1 connected tile in any of the 8 directions, including onto or off vertical cliff
+     walls. Cannot move into check.
+   - Surface Bound Play Style Rule:
+     Can step between Horizontal and Vertical surfaces, changing which enemies are legally
+     allowed to attack or check it! A King on a Horizontal tile can only be checked by
+     horizontal attackers; a King on a Vertical wall can only be checked by vertical attackers.
+
+7) VANGUARD [Icon: Custom Spearhead Shield SVG (⛨) | Badge: 20x20 Pyramid]
+   - Availability: Grand Pyramid 20x20 (Both Standard and RPG Combat Modes — 2 per side).
+   - RPG Stats: HP 90 | ATK 46 | DEF 24 | EVA 25% | CRIT 15%
+   - Movement (9 -> 1 Irreversible Forward Contraction):
+     * Moves forward ONLY along its deployment orientation (never backward; never sideways
+       on horizontal tiles).
+     * Starts with a 9-tile forward range in home territory, contracting irreversibly as it
+       advances toward the center: 9 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 tile at the
+       center and beyond. Cannot jump over occupied tiles.
+   - Vertical-Wall Exception & Rook Exchange:
+     * While occupying a Vertical Cliff Wall tile, unlocks sideways movement and capture.
+     * Exclusive Ability — Rook Exchange: Can swap board positions with any friendly Rook
+       anywhere on the Grand Pyramid (consuming the turn, subject to King safety).
+   - Surface Bound Play Style Rule:
+     Obeys Same-Surface Combat and Cross-Surface Blocking. Rook Exchange swaps both pieces'
+     current surface classes (a Rook swapped onto a vertical wall immediately becomes a
+     vertical-surface piece).
+
+8) GARGOYLE [Icon: Custom Winged Stone Sentinel SVG (❖) | Badge: 20x20 RPG Only]
+   - Availability: Grand Pyramid 20x20 + RPG Combat Mode ONLY (2 per side).
+   - RPG Stats: HP 80 | ATK 42 | DEF 16 | EVA 35% | CRIT 20%
+   - Movement & Stone Bulwark:
+     * On flat Tier-0 Valley ground: moves up to 2 connected tiles or leaps onto an
+       adjacent Pyramid terrace/wall, with -5% Evasion on flat ground.
+     * On Pyramid Terraces (Tier 1+) or Vertical Cliff Walls: awakens 3-tile winged glide
+       and cliff perch mobility, plus Stone Bulwark (+10 DEF & +15% EVA on vertical walls;
+       +6 DEF & +10% EVA on terraces; +1 D20 roll; and 20% Ally Guard Aura).
+   - Surface Bound Play Style Rule:
+     When using jump/glide movement, obeys the Jump Color Law (bound to starting tile color
+     until reaching the 4x4 Summit, which permanently releases it to use both colors) and
+     Same-Surface Combat Law.
+
+9) ASCENDANT [Icon: Custom Stepped Ziggurat Spire & Star SVG (✦) | Badge: 20x20 RPG Only]
+   - Availability: Grand Pyramid 20x20 + RPG Combat Mode ONLY (1 per side).
+   - RPG Stats: HP 85 | ATK 44 | DEF 20 | EVA 25% | CRIT 20%
+   - Movement & Developing Stride (Stage I -> II -> III):
+     * Stage I (Base Plains): 2 connected tiles orthogonally or diagonally.
+     * Stage II (Lower/Mid Pyramid Tier 1-2): 3 connected tiles.
+     * Stage III (Upper/Summit Tier 3-4 or Deep Advance): 4 connected tiles.
+   - RPG Elevation Resonance:
+     * Gains +4 ATK, +3 DEF, and +5% Crit per elevation tier occupied, plus permanent stat
+       tempering (+2 ATK, +2 DEF, +8 HP heal per tier climbed). Ignores uphill penalties.
+   - Surface Bound Play Style Rule:
+     As a non-jumping surface strider, obeys Same-Surface Combat and Cross-Surface Blocking.
+     Must occupy the same surface class as its target to attack.
+
+10) TREBUCHET [Icon: Custom Counterweight Siege Engine SVG (☄) | Badge: 20x20 RPG Only]
+    - Availability: Grand Pyramid 20x20 + RPG Combat Mode ONLY (1 per side).
+    - RPG Stats: HP 75 | ATK 52 | DEF 14 | EVA 5% | CRIT 15%
+    - Movement & Ranged Bombardment:
+      * Repositions 1-2 orthogonal tiles on horizontal ground (cannot capture by moving;
+        cannot climb vertical cliff walls).
+      * Fires ranged RPG Bombardments 3 to (6 + current tier) tiles (up to 9 tiles from
+        Tier 3!) along orthogonal or diagonal sightlines without moving or triggering a
+        counter-duel (+20% / +35% Siege Barrage damage).
+      * Has a 1-2 tile close-range blind spot (-6 DEF & 0% EVA if struck in melee).
+    - Surface Bound Play Style Rule:
+      Because the Trebuchet is a Horizontal-Surface piece, in Surface Bound mode its ranged
+      bombardments can only strike enemy targets on Horizontal Surfaces (Plains, Terraces,
+      Summit) and cannot hit enemies perched on Vertical Cliff Walls.
+
+================================================================================
+4. PYRAMID VISIBILITY & STRAIGHT STACKED ELEVATION BEACONS
+================================================================================
+- Straight Stacked Elevation Rows (L1, L2, L3...):
+  Obscured pieces behind the Pyramid project straight vertical flagpoles rising into level
+  horizontal stacked rows at clean 34px elevation intervals above the Pyramid silhouette.
+- Beacon Side Modes: Off / Opponent Only / Both Sides.
+- Dynamic Pyramid Opacity (0% to 100%) & Auto-Glass Transparency when action is occluded.
+
+================================================================================
+5. TACTICAL ACADEMY & HANDS-ON INTERACTIVE DRILLS
+================================================================================
+- Drill 1: The Vanguard Sprint & Rook Exchange (20x20 Grand Pyramid · Standard)
+- Drill 2: Vertical Wall Flanking & Pawn Sidestep (20x20 Grand Pyramid · Standard)
+- Drill 3: Grand Pyramid RPG Trio — Gargoyle, Ascendant & Trebuchet (20x20 Grand Pyramid · RPG)
+- Drill 4: Mirror-Class RPS & 3D D20 High-Ground Clash (12x12 Quick Pyramid · RPG)
+- Drill 5: Surface Bound Challenge — 4x4 Summit Color Release & Same-Surface Combat (12x12 Quick Pyramid · Surface Bound)
+================================================================================

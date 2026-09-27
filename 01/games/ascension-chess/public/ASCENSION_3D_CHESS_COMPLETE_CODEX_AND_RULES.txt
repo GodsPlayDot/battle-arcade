@@ -1,0 +1,51 @@
+================================================================================
+ASCENSION 3D CHESS — COMPLETE PIECE CODEX, BATTLEFIELD GUIDE, TACTICAL ACADEMY & RULES
+================================================================================
+Version: Master Edition (All 4 Battlefields · 10 Unit Classes · Open Surface & Surface Bound Play Styles · 3D D20 & RPS Combat · Master AI Playbook)
+
+================================================================================
+1. CORE IDENTITY & VICTORY CONDITION
+================================================================================
+Ascension 3D Chess is real Chess elevated onto a three-dimensional stepped architectural battlefield.
+- Two Armies: White (Ivory/Gold) vs. Black (Obsidian/Indigo).
+- Turn-Based Strategy: White moves first; players alternate turns.
+- Sovereign Objective: The King is the sole piece that decides the game.
+  You win by CHECKMATING the enemy King (or eliminating the enemy King in combat).
+  There are NO artificial "King of the Hill" summit victories and NO kill-count victories.
+  Controlling the 4x4 Summit Apex grants commanding elevation, promotion opportunities,
+  and (in Surface Bound Play Style) Jump Color Release, but only Checkmate wins the war.
+
+================================================================================
+2. THE FIVE INDEPENDENT GAME SETUP CATEGORIES
+================================================================================
+Setting         Choices
+--------------------------------------------------------------------------------
+1. Battlefield  Classic (8x8) / Battlefield (20x20) / Quick Pyramid (12x12) / Grand Pyramid (20x20)
+2. Army         Standard / Kingdom
+3. Combat       Standard / RPG
+4. Play Style   Open Surface (Standard) / Surface Bound (Challenge)
+5. Players      Human vs Human / Human vs AI / AI vs AI
+
+--------------------------------------------------------------------------------
+D. PLAY STYLE (Open Surface vs. Surface Bound Challenge)
+--------------------------------------------------------------------------------
+Play Style is an independent setting that defines how pieces interact with Pyramid
+surfaces, vertical walls, tile colors, and the 4x4 Summit:
+
+1) OPEN SURFACE — Standard Pyramid Play (Default / Accessible Experience):
+   - Uses the continuous-surface Pyramid movement and attack system.
+   - Pieces can move and attack freely across connected horizontal and vertical surfaces.
+   - Jump-capable pieces (Knights, Gargoyles) can jump freely to any legal destination
+     tile color regardless of whether they have visited the 4x4 Summit.
+
+2) SURFACE BOUND — Advanced / Challenge Play Style:
+   - Horizontal pieces cannot attack vertical pieces.
+   - Vertical pieces cannot attack horizontal pieces.
+   - Opposite-surface pieces can still block movement paths.
+   - A piece must enter the same surface class as its opponent to attack it.
+   - Jump-capable pieces are restricted to the color tile they originally started on.
+   - Reaching the 4x4 summit releases that color restriction.
+   - Once released, the jumper can use either tile color.
+   - Jumping from the 4x4 summit is restricted to legal Pyramid-base landing tiles.
+   - Check and checkmate obey these exact same attack restrictions.
+================================================================================
